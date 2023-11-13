@@ -19,7 +19,7 @@ st.sidebar.header('User Input')
 # Include input fields for the relevant columns
 user_input = {
     'AGE': st.sidebar.slider('Age', min_value=0, max_value=100, value=30),
-    'TYPE OF ADMISSION-EMERGENCY/OPD': st.sidebar.radio('Type of Admission (1=OPD, 0=Emergency', [1,0]),
+    'TYPE OF ADMISSION-EMERGENCY/OPD': st.sidebar.radio('Type of Admission (1=OPD, 0=Emergency)', [1,0]),
     'CAD': st.sidebar.checkbox('Coronary Artery Disease (CAD)'),
     'PRIOR CMP': st.sidebar.checkbox('Cardiomyopathy (PRIOR CMP)'),
     'CKD': st.sidebar.checkbox('Chronic Kidney Disease (CKD)'),
